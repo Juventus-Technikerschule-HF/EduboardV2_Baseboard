@@ -1,0 +1,17 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 01b81dc5-5951-4c23-bac3-f9b3f46f948d)
+
+  (paper "A4")
+
+  (title_block
+    (title "EduboardV2 Baseboard")
+    (date "2022-06-05")
+    (rev "1")
+    (company "Juventus Technikerschule")
+  )
+
+  (lib_symbols
+  )
+
+)
