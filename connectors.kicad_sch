@@ -14,4 +14,10 @@
   (lib_symbols
   )
 
+
+  (text "Connectors\n- USB-Direct: USBC (USB)\n- RS485 Connector: ? (RS485 from Interface Chip)\n- USB-UART: USBC (USB from USB-Serial Convertor)\n- I2C: S4B-PH-SM4-K-TB(LF)(SN) + pin-header (I2C)\n- Micro-SD: TF-15x15 (SPI)\n- 40-Pin Header: PH-00650 (everything...)\n- 3.5mm Jack: (Analog Signal from DAC, maybe amplifier?)"
+    (at 13.97 30.48 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fb1e1b4e-8ef4-4bc2-980b-43db0c5d3d8a)
+  )
 )

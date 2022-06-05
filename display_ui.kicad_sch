@@ -14,4 +14,10 @@
   (lib_symbols
   )
 
+
+  (text "Display & UI\n- TFT-Display Connector for ER-TFT035-6: AFC07-S50ECA-00 (SPI)\n- 4x Buttons: K2-1102SP-C4SC-04 (4xGPIO)\n- 8x LED: 19-217/BHC-ZL1M2RY/3T (8xGPIO)\n- RGB-LED: WS2812B-B/W (GPIO... kinda timing sensitive)\n- RGB-LED PWM: FM-B2020RGBA-HG (3x TIMER/GPIO)\n- Buzzer: MLT-8530 (Timer/GPIO)"
+    (at 13.97 27.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 17466865-f5b1-4a5c-be5f-8d55ee546b82)
+  )
 )

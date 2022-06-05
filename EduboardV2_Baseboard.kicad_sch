@@ -83,4 +83,10 @@
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52" (page "5"))
     (path "/079bc49e-d545-405c-843f-4b3e915cef08" (page "6"))
   )
+
+  (symbol_instances
+    (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/8b422599-b638-47b2-8f32-c249353be142"
+      (reference "Card?") (unit 1) (value "PCIE-52P40H") (footprint "PCIE-SMD_PCIE-52P40H")
+    )
+  )
 )

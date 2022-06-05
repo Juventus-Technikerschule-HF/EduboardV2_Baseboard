@@ -14,4 +14,10 @@
   (lib_symbols
   )
 
+
+  (text "Sensors & Interfaces\n- ADC: WM8782SEDS/RV (I2S + 3GPIO)\n- DAC: CS4344-CZZR (I2S)\n- Temperature-Sensor: MCP9700AT-E/TT (ADC)\n- IMU: STK8321 (I2C)\n- Potentiometer: RK09K1130ACL (ADC)\n- RS485 Interface-Chip: SP3485EN-L/TR (RX/TX/Dir)\n- USB-Serial Converter: CH340G (RX/TX)\n\n"
+    (at 13.97 31.75 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 369cbebf-bc4a-4480-83c3-a6ced1a2abca)
+  )
 )
