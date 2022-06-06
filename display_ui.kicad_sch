@@ -1439,10 +1439,10 @@
       (property "LCSC Part" "C470291" (id 5) (at 0 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MPN" "RK09K1130ACL" (id 7) (at 0 -10.16 0)
+      (property "MPN" "RK09K1130ACL" (id 6) (at 0 -10.16 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "20V ±20% 50mW 50kΩ Plugin  Variable Resistors/Potentiometers ROHS" (id 6) (at 0 0 0)
+      (property "ki_description" "20V ±20% 50mW 50kΩ Plugin  Variable Resistors/Potentiometers ROHS" (id 7) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "RK09K1130ACL_0_1"
