@@ -70,6 +70,77 @@
       )
     )
   )
+  (symbol "0402B222K500NT" (in_bom yes) (on_board yes)
+    (property "Reference" "C?" (id 0) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0402B222K500NT" (id 1) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "C0402" (id 2) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_2-2nF-222-10-50V_C1531.html" (id 3) (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "FH" (id 4) (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "C1531" (id 5) (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part" "Basic Part" (id 6) (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402B222K500NT" (id 7) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "50V 2.2nF X7R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "0402B222K500NT_0_1"
+      (polyline
+        (pts
+          (xy -1.27 0)
+          (xy -0.508 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.508 2.032)
+          (xy -0.508 -2.032)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.508 0)
+          (xy 1.27 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.508 2.032)
+          (xy 0.508 -2.032)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin input line (at -3.81 0 0) (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 3.81 0 180) (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "0402CG220J500NT" (in_bom yes) (on_board yes)
     (property "Reference" "C?" (id 0) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
@@ -170,6 +241,49 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "0402WGF1001TCE_0_1"
+      (rectangle (start -2.54 1.02) (end 2.54 -1.02)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin input line (at -5.08 0 0) (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 5.08 0 180) (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "0402WGF1002TCE" (in_bom yes) (on_board yes)
+    (property "Reference" "R?" (id 0) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0402WGF1002TCE" (id 1) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "R0402" (id 2) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html" (id 3) (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "UniOhm" (id 4) (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "C25744" (id 5) (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part" "Basic Part" (id 6) (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402WGF1002TCE" (id 7) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "1/16W Thick Film Resistors 50V ±1% ±100ppm/℃ -55℃~+155℃ 10kΩ 0402  Chip Resistor - Surface Mount ROHS" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "0402WGF1002TCE_0_1"
       (rectangle (start -2.54 1.02) (end 2.54 -1.02)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
@@ -299,6 +413,49 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "0402WGF2212TCE_0_1"
+      (rectangle (start -2.54 1.02) (end 2.54 -1.02)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin input line (at -5.08 0 0) (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 5.08 0 180) (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "0402WGF4700TCE" (in_bom yes) (on_board yes)
+    (property "Reference" "R?" (id 0) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0402WGF4700TCE" (id 1) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "R0402" (id 2) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_470R-4700-1_C25117.html" (id 3) (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "UniOhm" (id 4) (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "C25117" (id 5) (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part" "Basic Part" (id 6) (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402WGF4700TCE" (id 7) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "1/16W Thick Film Resistors 50V ±1% ±100ppm/℃ -55℃~+155℃ 470Ω 0402  Chip Resistor - Surface Mount ROHS" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "0402WGF4700TCE_0_1"
       (rectangle (start -2.54 1.02) (end 2.54 -1.02)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
@@ -1160,6 +1317,67 @@
       )
     )
   )
+  (symbol "B5819W_C8598" (in_bom yes) (on_board yes)
+    (property "Reference" "D?" (id 0) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "B5819W_C8598" (id 1) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "SOD-123_L2.7-W1.6-LS3.7-RD-1" (id 2) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_B5819W-SL_C8598.html" (id 3) (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "CJ" (id 4) (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "C8598" (id 5) (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part" "Basic Part" (id 6) (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "B5819W_C8598" (id 7) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "40V 600mV@1A 1A SOD-123  Schottky Barrier Diodes (SBD) ROHS" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "B5819W_C8598_0_1"
+      (polyline
+        (pts
+          (xy 1.27 1.524)
+          (xy -1.27 0)
+          (xy 1.27 -1.524)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.508 -1.778)
+          (xy -0.508 -2.286)
+          (xy -1.27 -2.286)
+          (xy -1.27 1.016)
+          (xy -1.27 1.778)
+          (xy -2.032 1.778)
+          (xy -2.032 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line (at -3.81 0 0) (length 2.54)
+        (name "-" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 3.81 0 180) (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "CH340G" (in_bom yes) (on_board yes)
     (property "Reference" "U?" (id 0) (at 0 13.97 0)
       (effects (font (size 1.27 1.27)))
@@ -1472,6 +1690,77 @@
       )
     )
   )
+  (symbol "CL05C100JB5NNNC" (in_bom yes) (on_board yes)
+    (property "Reference" "C?" (id 0) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "CL05C100JB5NNNC" (id 1) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "C0402" (id 2) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05C100JB5NNNC_10pF-100-5-50V_C32949.html" (id 3) (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "SAMSUNG" (id 4) (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "C32949" (id 5) (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part" "Basic Part" (id 6) (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CL05C100JB5NNNC" (id 7) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "50V 10pF C0G ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "CL05C100JB5NNNC_0_1"
+      (polyline
+        (pts
+          (xy -0.508 -2.032)
+          (xy -0.508 2.032)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.508 0)
+          (xy -2.54 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.508 2.032)
+          (xy 0.508 -2.032)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 0)
+          (xy 0.508 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line (at -5.08 0 0) (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 5.08 0 180) (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "CL10A106MA8NRNC" (in_bom yes) (on_board yes)
     (property "Reference" "C?" (id 0) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
@@ -1538,6 +1827,77 @@
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin unspecified line (at 5.08 0 180) (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "CL10A475KO8NNNC" (in_bom yes) (on_board yes)
+    (property "Reference" "C?" (id 0) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "CL10A475KO8NNNC" (id 1) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "C0603" (id 2) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KO8NNNC_4-7uF-475-10-16V_C19666.html" (id 3) (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "SAMSUNG" (id 4) (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "C19666" (id 5) (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part" "Basic Part" (id 6) (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CL10A475KO8NNNC" (id 7) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "16V 4.7uF X5R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "CL10A475KO8NNNC_0_1"
+      (polyline
+        (pts
+          (xy -1.27 0)
+          (xy -0.508 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.508 2.032)
+          (xy -0.508 -2.032)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.508 0)
+          (xy 1.27 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.508 2.032)
+          (xy 0.508 -2.032)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin input line (at -3.81 0 0) (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 3.81 0 180) (length 2.54)
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -2641,6 +3001,69 @@
       )
     )
   )
+  (symbol "GZ1608D601TF" (in_bom yes) (on_board yes)
+    (property "Reference" "L?" (id 0) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "GZ1608D601TF" (id 1) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "L0603" (id 2) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Ferrite-Beads-And-Chips_600R-25-100MHz_C1002.html" (id 3) (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Sunlord" (id 4) (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "C1002" (id 5) (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part" "Basic Part" (id 6) (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "GZ1608D601TF" (id 7) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "200mA 1 450mΩ 600Ω@100MHz ±25% 0603  Ferrite Beads ROHS" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "GZ1608D601TF_0_1"
+      (arc (start -2.54 1.2702) (mid -3.438 0.8981) (end -3.8099 0.0001)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start -1.2699 0.0001) (mid -1.6419 0.8981) (end -2.5399 1.2701)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 0 1.2702) (mid -0.898 0.8981) (end -1.2699 0.0001)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 1.2701 0.0001) (mid 0.8981 0.8981) (end 0.0001 1.2701)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 2.54 1.2702) (mid 1.642 0.8981) (end 1.2701 0.0001)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 3.8101 0.0001) (mid 3.4381 0.8981) (end 2.5401 1.2701)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line (at -6.35 0 0) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 6.35 0 180) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "K2-1102SP-C4SC-04" (in_bom yes) (on_board yes)
     (property "Reference" "SW?" (id 0) (at 0 10.16 0)
       (effects (font (size 1.27 1.27)))
@@ -3435,6 +3858,93 @@
       (pin unspecified line (at -7.62 13.97 0) (length 2.54)
         (name "9" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PJ-327C-4A" (in_bom yes) (on_board yes)
+    (property "Reference" "Audio?" (id 0) (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PJ-327C-4A" (id 1) (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "AUDIO-SMD_PJ-327C-4A" (id 2) (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Audio-Connectors_PJ-327C-4A_C145813.html" (id 3) (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "HRO" (id 4) (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "C145813" (id 5) (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part" "Extended Part" (id 6) (at 0 -25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "PJ-327C-4A" (id 7) (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "3.5mm headphone jack 30V 500mA SMD  Audio Connectors ROHS" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "PJ-327C-4A_0_1"
+      (polyline
+        (pts
+          (xy 3.81 -5.08)
+          (xy -2.032 -5.08)
+          (xy -2.54 -4.064)
+          (xy -3.048 -5.08)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -2.54)
+          (xy -0.762 -2.54)
+          (xy -1.27 -2.54)
+          (xy -1.27 -5.08)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 0)
+          (xy -3.556 0)
+          (xy -4.064 -1.016)
+          (xy -4.572 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 2.54)
+          (xy -7.62 2.54)
+          (xy -7.62 -2.54)
+          (xy -8.89 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line (at 6.35 2.54 180) (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 6.35 -5.08 180) (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 6.35 0 180) (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 6.35 -2.54 180) (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -4715,6 +5225,138 @@
       )
     )
   )
+  (symbol "X322512MSB4SI" (in_bom yes) (on_board yes)
+    (property "Reference" "X?" (id 0) (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "X322512MSB4SI" (id 1) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "OSC-SMD_4P-L3.2-W2.5-BL" (id 2) (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html" (id 3) (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "YXC" (id 4) (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "C9002" (id 5) (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part" "Basic Part" (id 6) (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "X322512MSB4SI" (id 7) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "12MHz SMD Crystal Resonator 20pF ±10ppm ±30ppm -40℃~+85℃ SMD3225-4P  Crystals ROHS" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "X322512MSB4SI_0_1"
+      (rectangle (start -5.08 5.08) (end 5.08 -5.08)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.778)
+          (xy -1.27 1.778)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.016)
+          (xy -1.27 1.016)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.762 -1.778)
+          (xy -0.762 -1.778)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -1.778)
+          (xy 1.27 1.778)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -1.016)
+          (xy 1.27 1.016)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -2.54)
+          (xy -2.54 -2.54)
+          (xy -2.54 0)
+          (xy -1.524 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.762 -1.778)
+          (xy -0.762 1.778)
+          (xy 0.762 1.778)
+          (xy 0.762 -1.778)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 2.54)
+          (xy 2.54 2.54)
+          (xy 2.54 0)
+          (xy 1.524 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.762 1.778)
+          (xy 0.762 -1.778)
+          (xy -0.762 -1.778)
+          (xy -0.762 1.778)
+          (xy 0.762 1.778)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line (at -7.62 -2.54 0) (length 2.54)
+        (name "OSC1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 7.62 -2.54 180) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 7.62 2.54 180) (length 2.54)
+        (name "OSC2" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -7.62 2.54 0) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "XL1509-5.0E1" (in_bom yes) (on_board yes)
     (property "Reference" "U?" (id 0) (at 0 12.7 0)
       (effects (font (size 1.27 1.27)))
@@ -4782,61 +5424,61 @@
       )
     )
   )
-  (symbol "CL05C100JB5NNNC"
+  (symbol "0402WGF1200TCE"
     (in_bom yes)
     (on_board yes)
     (property
       "Reference"
-      "C?"
+      "R?"
       (id 0)
       (at 0 5.08 0)
       (effects (font (size 1.27 1.27) ) )
     )
     (property
       "Value"
-      "CL05C100JB5NNNC"
+      "0402WGF1200TCE"
       (id 1)
       (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
     )
     (property
       "MPN"
-      "CL05C100JB5NNNC"
+      "0402WGF1200TCE"
       (id 7)
       (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "Footprint"
-      "C0402"
+      "R0402"
       (id 2)
       (at 0 -7.62 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "ki_description"
-      "50V 10pF C0G ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+      "1/16W Thick Film Resistors 50V ±1% ±100ppm/℃ -55℃~+155℃ 120Ω 0402  Chip Resistor - Surface Mount ROHS"
       (id 8)
       (at 0 -10.16 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05C100JB5NNNC_10pF-100-5-50V_C32949.html"
+      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_120R-1200-1_C25079.html"
       (id 3)
       (at 0 -12.70 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "Manufacturer"
-      "SAMSUNG"
+      "UniOhm"
       (id 4)
       (at 0 -15.24 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "LCSC Part"
-      "C32949"
+      "C25079"
       (id 5)
       (at 0 -17.78 0)
       (effects (font (size 1.27 1.27) ) hide)
@@ -4848,412 +5490,24 @@
       (at 0 -20.32 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
-    (symbol "CL05C100JB5NNNC_0_1"
-      (polyline
-        (pts
-          (xy -0.508 -2.032) (xy -0.508 2.032)
-        )
+    (symbol "0402WGF1200TCE_0_1"
+      (rectangle
+        (start -2.54 1.02)
+        (end 2.54 -1.02)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
-      (polyline
-        (pts
-          (xy 2.54 -0.0) (xy 0.508 -0.0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.508 2.032) (xy 0.508 -2.032)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 -0.0) (xy -2.54 -0.0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
+      (pin input line
         (at 5.08 -0.00 180)
         (length 2.54)
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-    )
-  )
-  (symbol "B5819W_C8598"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "D?"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "B5819W_C8598"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "MPN"
-      "B5819W_C8598"
-      (id 7)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Footprint"
-      "SOD-123_L2.7-W1.6-LS3.7-RD-1"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "ki_description"
-      "40V 600mV@1A 1A SOD-123  Schottky Barrier Diodes (SBD) ROHS"
-      (id 8)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_B5819W-SL_C8598.html"
-      (id 3)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Manufacturer"
-      "CJ"
-      (id 4)
-      (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C8598"
-      (id 5)
-      (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "JLC Part"
-      "Basic Part"
-      (id 6)
-      (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "B5819W_C8598_0_1"
-      (polyline
-        (pts
-          (xy 1.27 1.524) (xy -1.27 -0.0) (xy 1.27 -1.524)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 -1.778) (xy -0.508 -2.286) (xy -1.27 -2.286) (xy -1.27 1.016) (xy -1.27 1.778) (xy -2.032 1.778) (xy -2.032 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at -3.81 -0.00 0)
-        (length 2.54)
-        (name "-" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 3.81 -0.00 180)
-        (length 2.54)
-        (name "+" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "X322512MSB4SI"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "X?"
-      (id 0)
-      (at 0 7.62 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "X322512MSB4SI"
-      (id 1)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "MPN"
-      "X322512MSB4SI"
-      (id 7)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Footprint"
-      "OSC-SMD_4P-L3.2-W2.5-BL"
-      (id 2)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "ki_description"
-      "12MHz SMD Crystal Resonator 20pF ±10ppm ±30ppm -40℃~+85℃ SMD3225-4P  Crystals ROHS"
-      (id 8)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html"
-      (id 3)
-      (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Manufacturer"
-      "YXC"
-      (id 4)
-      (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C9002"
-      (id 5)
-      (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "JLC Part"
-      "Basic Part"
-      (id 6)
-      (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "X322512MSB4SI_0_1"
-      (rectangle
-        (start -5.08 5.08)
-        (end 5.08 -5.08)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 0.762 1.778) (xy 0.762 -1.778) (xy -0.762 -1.778) (xy -0.762 1.778) (xy 0.762 1.778)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -1.778) (xy -1.27 1.778)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -1.778) (xy 1.27 1.778)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 -0.0) (xy -1.524 -0.0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 -0.0) (xy 1.524 -0.0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.762 -1.778) (xy -0.762 1.778) (xy 0.762 1.778) (xy 0.762 -1.778)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -1.016) (xy 1.27 1.016)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 -1.778) (xy -0.762 -1.778)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -1.016) (xy -1.27 1.016)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at 7.62 2.54 180)
-        (length 2.54)
-        (name "OSC2" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -7.62 -2.54 0)
-        (length 2.54)
-        (name "OSC1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 7.62 -2.54 180)
-        (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -7.62 2.54 0)
-        (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CL10A475KO8NNNC"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "C?"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "CL10A475KO8NNNC"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "MPN"
-      "CL10A475KO8NNNC"
-      (id 7)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Footprint"
-      "C0603"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "ki_description"
-      "16V 4.7uF X5R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-      (id 8)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KO8NNNC_4-7uF-475-10-16V_C19666.html"
-      (id 3)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Manufacturer"
-      "SAMSUNG"
-      (id 4)
-      (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C19666"
-      (id 5)
-      (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "JLC Part"
-      "Basic Part"
-      (id 6)
-      (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "CL10A475KO8NNNC_0_1"
-      (polyline
-        (pts
-          (xy -0.508 2.032) (xy -0.508 -2.032)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.508 2.032) (xy 0.508 -2.032)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -0.0) (xy -0.508 -0.0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.508 -0.0) (xy 1.27 -0.0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
       (pin input line
-        (at -3.81 -0.00 0)
+        (at -5.08 -0.00 0)
         (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at 3.81 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
       )
     )
   )
