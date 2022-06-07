@@ -891,11 +891,11 @@
       )
     )
   )
-  (symbol "1N4148WS T4" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "1N4148WST4" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D?" (id 0) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148WS T4" (id 1) (at 0 -5.08 0)
+    (property "Value" "1N4148WST4" (id 1) (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "SOD-323_L1.8-W1.3-LS2.5-RD" (id 2) (at 0 -7.62 0)
@@ -919,7 +919,7 @@
     (property "ki_description" "100V +150℃@(Tj) 200mW Single 1.25V@150mA 4ns 1μA@75V 150mA SOD-323  Switching Diode ROHS" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "1N4148WS T4_0_1"
+    (symbol "1N4148WST4_0_1"
       (polyline
         (pts
           (xy -1.27 -1.524)
