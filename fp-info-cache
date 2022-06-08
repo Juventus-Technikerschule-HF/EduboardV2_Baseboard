@@ -1,4 +1,4 @@
-20290759909200520
+20315592672281942
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85778,12 +85778,12 @@ varistor SIOV
 2
 2
 eduboardv2
-AUDIO-SMD_PJ-320B
+AUDIO-SMD_PJ-327C-4A
 
 
 0
-5
-3
+6
+4
 eduboardv2
 BAT-TH_CR2032-BS-6-1
 
@@ -85800,6 +85800,20 @@ BUZ-SMD_4P-L8.5-W8.5-P8.50-TL
 4
 eduboardv2
 C0402
+
+
+0
+2
+2
+eduboardv2
+C0603
+
+
+0
+2
+2
+eduboardv2
+CAP-SMD_BD8.0-L8.3-W8.3-RD
 
 
 0
@@ -85848,7 +85862,35 @@ HDR-SMD_40P-P2.54-V-M-R2-C20-S7.8-EH
 42
 40
 eduboardv2
+IDC-SMD_BH-00105
+
+
+0
+42
+40
+eduboardv2
+IDC-SMD_BH-00158
+
+
+0
+32
+30
+eduboardv2
 IND-SMD_L3.0-W3.0_SMNR3012
+
+
+0
+2
+2
+eduboardv2
+IND-SMD_L4.0-W4.0
+
+
+0
+2
+2
+eduboardv2
+IND-SMD_L4.0-W4.0_SLW4010S
 
 
 0
@@ -85868,6 +85910,13 @@ KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BL
 0
 4
 4
+eduboardv2
+L0603
+
+
+0
+2
+2
 eduboardv2
 LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B
 
@@ -85897,12 +85946,26 @@ LGA-12_L2.0-W2.0-P0.50-TR
 12
 12
 eduboardv2
+OSC-SMD_4P-L3.2-W2.5-BL
+
+
+0
+4
+4
+eduboardv2
 PCIE-SMD_PCIE-52P40H
 
 
 0
 56
 54
+eduboardv2
+R0402
+
+
+0
+2
+2
 eduboardv2
 RES-TH_RK09K1130AAU
 
@@ -85912,6 +85975,27 @@ RES-TH_RK09K1130AAU
 5
 eduboardv2
 SENSORS-SMD_ALS-PT19
+
+
+0
+2
+2
+eduboardv2
+SMA_L4.3-W2.6-LS5.2-RD
+
+
+0
+2
+2
+eduboardv2
+SOD-123_L2.7-W1.6-LS3.7-RD-1
+
+
+0
+2
+2
+eduboardv2
+SOD-323_L1.8-W1.3-LS2.5-RD
 
 
 0
@@ -85974,6 +86058,13 @@ SW-SMD_16P-L11.4-W4.5-P1.27-LS6.7
 16
 16
 eduboardv2
+SW-TH_1FS1T1B9M2RES-5
+
+
+0
+3
+3
+eduboardv2
 TF-SMD_TF-15-15
 
 
@@ -85994,6 +86085,20 @@ TSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL
 0
 10
 10
+eduboardv2
+TYPE-C-SMD_TYPE-C-31-M-16
+
+
+0
+10
+10
+eduboardv2
+USB-C-SMD_TYPE-C-USB-17
+
+
+0
+18
+13
 eduboardv2
 WIFI-SMD_ESP32-WROOM-32E
 
