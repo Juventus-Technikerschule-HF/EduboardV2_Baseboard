@@ -451,9 +451,6 @@
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/210342a5-901f-4edf-a0ba-d2f9a640c75e"
       (reference "#PWR0617") (unit 1) (value "GND") (footprint "")
     )
-    (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/1b345443-88f8-413c-bee7-1c47986ad135"
-      (reference "B201") (unit 1) (value "CR2032-BS-6-1") (footprint "BAT-TH_CR2032-BS-6-1")
-    )
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/8c2f67cf-50fc-4b7f-8485-f30567349b4e"
       (reference "BUZZER401") (unit 1) (value "MLT-8530") (footprint "BUZ-SMD_4P-L8.5-W8.5-P8.50-TL")
     )
@@ -852,6 +849,9 @@
     )
     (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/922da7ad-7fed-4073-8485-765ac3706e46"
       (reference "X203") (unit 1) (value "TF-15×15") (footprint "TF-SMD_TF-15-15")
+    )
+    (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/3a2fae49-a38c-43ff-baa7-abf016d42633"
+      (reference "X204") (unit 1) (value "CR1220-2ZX") (footprint "BAT-SMD_CR1220-2ZX")
     )
     (path "/5431a3ef-e3a9-462a-b9dc-2ffdf9ab7e55/5ec5e315-8954-46cb-9800-c6e6277d56ef"
       (reference "X301") (unit 1) (value "KF2EDGR-3.81-3P") (footprint "CONN-TH_3P-P3.81_KF2EDGR-3.81-3P")
