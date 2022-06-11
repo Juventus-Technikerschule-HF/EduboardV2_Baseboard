@@ -628,9 +628,6 @@
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/5eaefda3-1a9d-48ce-9981-d272d40f64b8"
       (reference "D411") (unit 1) (value "1N4148WST4") (footprint "SOD-323_L1.8-W1.3-LS2.5-RD")
     )
-    (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/08a5dce1-b4b7-4b61-b99f-d864a41685b7"
-      (reference "IC201") (unit 1) (value "STK8321") (footprint "LGA-12_L2.0-W2.0-P0.50-TR")
-    )
     (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/ef7f239c-328b-4432-9114-52f1dc9b5d40"
       (reference "IC202") (unit 1) (value "PCF8563T_5,518") (footprint "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
     )
@@ -657,6 +654,9 @@
     )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/80e88525-7435-4c89-859c-41fcf3e6e5c6"
       (reference "IC605") (unit 1) (value "MCP9700AT-E_TT") (footprint "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR")
+    )
+    (path "/079bc49e-d545-405c-843f-4b3e915cef08/986cd48a-881a-4999-bd52-e49399777384"
+      (reference "IC?") (unit 1) (value "STK8321") (footprint "LGA-12_L2.0-W2.0-P0.50-TR")
     )
     (path "/5431a3ef-e3a9-462a-b9dc-2ffdf9ab7e55/00b0795b-b2e4-400a-b0ed-a793500dd33e"
       (reference "L301") (unit 1) (value "6.8uH, 1A") (footprint "IND-SMD_L4.0-W4.0")
