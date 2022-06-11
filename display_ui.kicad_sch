@@ -58,7 +58,7 @@
         )
       )
       (symbol "+3.3V_1_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -110,7 +110,7 @@
         )
       )
       (symbol "+3.3V_10_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -162,7 +162,7 @@
         )
       )
       (symbol "+3.3V_11_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -214,7 +214,7 @@
         )
       )
       (symbol "+3.3V_12_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -266,7 +266,7 @@
         )
       )
       (symbol "+3.3V_13_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -318,7 +318,59 @@
         )
       )
       (symbol "+3.3V_14_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "+3.3V_15" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR0339" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V_15" (id 1) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V_15_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_15_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -370,7 +422,7 @@
         )
       )
       (symbol "+3.3V_2_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -422,7 +474,7 @@
         )
       )
       (symbol "+3.3V_3_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -474,7 +526,7 @@
         )
       )
       (symbol "+3.3V_4_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -526,7 +578,7 @@
         )
       )
       (symbol "+3.3V_5_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -578,7 +630,7 @@
         )
       )
       (symbol "+3.3V_6_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -630,7 +682,7 @@
         )
       )
       (symbol "+3.3V_7_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -682,7 +734,7 @@
         )
       )
       (symbol "+3.3V_8_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -734,60 +786,8 @@
         )
       )
       (symbol "+3.3V_9_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "+5V_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0319" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V_1" (id 1) (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_1_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -3750,7 +3750,7 @@
         )
       )
       (symbol "GND_1_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -3790,367 +3790,7 @@
         )
       )
       (symbol "GND_10_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_11" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0340" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_11" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_11_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_11_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_12" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0340" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_12" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_12_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_12_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_13" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0340" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_13" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_13_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_13_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_14" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0340" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_14" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_14_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_14_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_15" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0340" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_15" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_15_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_15_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_16" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0340" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_16" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_16_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_16_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_17" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0340" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_17" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_17_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_17_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_18" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0340" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_18" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_18_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_18_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_19" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0340" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_19" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_19_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_19_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4190,7 +3830,7 @@
         )
       )
       (symbol "GND_2_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4230,7 +3870,7 @@
         )
       )
       (symbol "GND_20_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4270,7 +3910,7 @@
         )
       )
       (symbol "GND_21_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4310,7 +3950,7 @@
         )
       )
       (symbol "GND_22_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4350,7 +3990,7 @@
         )
       )
       (symbol "GND_23_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4390,7 +4030,7 @@
         )
       )
       (symbol "GND_24_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4430,7 +4070,7 @@
         )
       )
       (symbol "GND_25_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4470,7 +4110,7 @@
         )
       )
       (symbol "GND_26_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4510,7 +4150,7 @@
         )
       )
       (symbol "GND_27_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4550,7 +4190,7 @@
         )
       )
       (symbol "GND_28_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4590,7 +4230,7 @@
         )
       )
       (symbol "GND_29_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4630,7 +4270,7 @@
         )
       )
       (symbol "GND_3_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4670,7 +4310,7 @@
         )
       )
       (symbol "GND_30_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4710,47 +4350,7 @@
         )
       )
       (symbol "GND_31_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_32" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0340" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_32" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_32_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_32_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4790,7 +4390,7 @@
         )
       )
       (symbol "GND_33_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4830,7 +4430,7 @@
         )
       )
       (symbol "GND_34_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4870,7 +4470,7 @@
         )
       )
       (symbol "GND_4_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4910,7 +4510,7 @@
         )
       )
       (symbol "GND_5_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4950,7 +4550,7 @@
         )
       )
       (symbol "GND_6_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -4990,7 +4590,7 @@
         )
       )
       (symbol "GND_7_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -5030,7 +4630,7 @@
         )
       )
       (symbol "GND_8_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -5070,7 +4670,7 @@
         )
       )
       (symbol "GND_9_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -5659,8 +5259,60 @@
         )
       )
       (symbol "+3.3V_1_1"
-        (pin power_out line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "eduboardv2:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR0319" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (id 1) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -6925,7 +6577,7 @@
         )
       )
       (symbol "GND_1_1"
-        (pin power_out line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -8469,7 +8121,7 @@
     (pin "1" (uuid 3aafc6f6-b783-4194-88fb-25faaaebccf6))
   )
 
-  (symbol (lib_name "GND_16") (lib_id "eduboardv2:GND") (at 21.59 64.77 0) (unit 1)
+  (symbol (lib_id "eduboardv2:GND") (at 21.59 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0dddefd3-ff81-4f44-b1ee-6cf5c0792f32)
     (property "Reference" "#PWR0403" (id 0) (at 21.59 71.12 0)
@@ -8574,7 +8226,7 @@
     (pin "2" (uuid 4d454a70-8d6a-48d9-969d-3015e5d21e7c))
   )
 
-  (symbol (lib_name "GND_18") (lib_id "eduboardv2:GND") (at 60.96 64.77 0) (unit 1)
+  (symbol (lib_id "eduboardv2:GND") (at 60.96 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 14c72767-c06b-454a-8453-d515bbb0d418)
     (property "Reference" "#PWR0416" (id 0) (at 60.96 71.12 0)
@@ -8804,7 +8456,7 @@
     (pin "2" (uuid c9df4524-99ae-489b-910c-c6f9391ba2de))
   )
 
-  (symbol (lib_name "GND_12") (lib_id "eduboardv2:GND") (at 35.56 165.1 0) (unit 1)
+  (symbol (lib_id "eduboardv2:GND") (at 35.56 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2a3f228a-1e2f-432a-99b9-9ea302b02754)
     (property "Reference" "#PWR0408" (id 0) (at 35.56 171.45 0)
@@ -8914,7 +8566,7 @@
     (pin "2" (uuid e47616dd-a891-46bd-a3d6-9e7dde9ab01b))
   )
 
-  (symbol (lib_name "GND_13") (lib_id "eduboardv2:GND") (at 45.72 64.77 0) (unit 1)
+  (symbol (lib_id "eduboardv2:GND") (at 45.72 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 330dff5f-cd09-4015-945a-4a0b210eb770)
     (property "Reference" "#PWR0410" (id 0) (at 45.72 71.12 0)
@@ -9078,7 +8730,7 @@
     (pin "2" (uuid 31a7b776-82dc-4b3d-a46d-a53bb53cf527))
   )
 
-  (symbol (lib_name "GND_19") (lib_id "eduboardv2:GND") (at 68.58 64.77 0) (unit 1)
+  (symbol (lib_id "eduboardv2:GND") (at 68.58 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 40a5a875-a8c2-451b-95d8-89a2d03912bf)
     (property "Reference" "#PWR0419" (id 0) (at 68.58 71.12 0)
@@ -9155,7 +8807,7 @@
     (pin "3" (uuid 6e926259-9a4d-4adb-8d82-27ab88ba0163))
   )
 
-  (symbol (lib_name "GND_11") (lib_id "eduboardv2:GND") (at 20.32 167.64 0) (unit 1)
+  (symbol (lib_id "eduboardv2:GND") (at 20.32 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 469c54da-74b9-4ef0-bb03-8e25ad1e2805)
     (property "Reference" "#PWR0402" (id 0) (at 20.32 173.99 0)
@@ -9171,7 +8823,7 @@
     (pin "1" (uuid 60750b57-b822-4eaf-a8de-a23d23cf15a1))
   )
 
-  (symbol (lib_name "+3.3V_13") (lib_id "eduboardv2:+3.3V") (at 162.56 87.63 0) (unit 1)
+  (symbol (lib_name "+3.3V_15") (lib_id "eduboardv2:+3.3V") (at 162.56 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 48763789-5406-4cc4-85de-be2aae7aca53)
     (property "Reference" "#PWR0438" (id 0) (at 162.56 91.44 0)
@@ -9327,7 +8979,7 @@
     (pin "2" (uuid a4a84d38-c1ca-4c44-824b-946823c9313a))
   )
 
-  (symbol (lib_name "+5V_1") (lib_id "eduboardv2:+5V") (at 123.19 92.71 0) (unit 1)
+  (symbol (lib_id "eduboardv2:+5V") (at 123.19 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 575f4495-38c6-4914-9aa0-27fe8f010b02)
     (property "Reference" "#PWR0433" (id 0) (at 123.19 96.52 0)
@@ -9789,7 +9441,7 @@
     (pin "1" (uuid 0f310670-be21-4b0a-b438-f369448aa89e))
   )
 
-  (symbol (lib_name "GND_17") (lib_id "eduboardv2:GND") (at 53.34 64.77 0) (unit 1)
+  (symbol (lib_id "eduboardv2:GND") (at 53.34 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7f1add3a-0b0e-43e2-8dfd-67f5b13b23fb)
     (property "Reference" "#PWR0413" (id 0) (at 53.34 71.12 0)
@@ -10385,7 +10037,7 @@
     (pin "2" (uuid 8a267f74-7b2d-489a-a2c1-ff64b0b40841))
   )
 
-  (symbol (lib_name "GND_15") (lib_id "eduboardv2:GND") (at 30.48 64.77 0) (unit 1)
+  (symbol (lib_id "eduboardv2:GND") (at 30.48 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ac3a1716-84e6-44c4-9600-4599b7c5be33)
     (property "Reference" "#PWR0406" (id 0) (at 30.48 71.12 0)
@@ -10705,7 +10357,7 @@
     (pin "2" (uuid 7b577580-0f6a-4404-b009-0a64b3ff20bb))
   )
 
-  (symbol (lib_name "+5V_1") (lib_id "eduboardv2:+5V") (at 157.48 82.55 0) (unit 1)
+  (symbol (lib_id "eduboardv2:+5V") (at 157.48 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d506b3c8-3ff0-41c0-9b49-fce3ed35d3ed)
     (property "Reference" "#PWR0437" (id 0) (at 157.48 86.36 0)
@@ -11039,7 +10691,7 @@
     (pin "2" (uuid c43fb56d-e691-45db-bfb7-a688f62fa239))
   )
 
-  (symbol (lib_name "GND_32") (lib_id "eduboardv2:GND") (at 53.34 102.87 0) (unit 1)
+  (symbol (lib_id "eduboardv2:GND") (at 53.34 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ea499242-f54d-4e86-91f0-fb55b6285958)
     (property "Reference" "#PWR0415" (id 0) (at 53.34 109.22 0)
@@ -11182,7 +10834,7 @@
     (pin "3" (uuid 680d8d4b-3db4-44ca-a150-b605426fb5e4))
   )
 
-  (symbol (lib_name "GND_14") (lib_id "eduboardv2:GND") (at 38.1 64.77 0) (unit 1)
+  (symbol (lib_id "eduboardv2:GND") (at 38.1 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f2d14208-c095-423f-8da5-3ed33cffaf3f)
     (property "Reference" "#PWR0409" (id 0) (at 38.1 71.12 0)
