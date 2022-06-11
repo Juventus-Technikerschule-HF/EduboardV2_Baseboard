@@ -10852,7 +10852,7 @@
     (in_bom yes) (on_board yes)
     (uuid def69f9e-1f6f-488c-a544-1d74f89517b2)
     (property "Reference" "R?" (id 0) (at 160.02 87.63 0))
-    (property "Value" "10R" (id 1) (at 154.94 87.63 0))
+    (property "Value" "10k" (id 1) (at 154.94 87.63 0))
     (property "Footprint" "R0402" (id 2) (at 165.1 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )

@@ -905,7 +905,7 @@
       (reference "R?") (unit 1) (value "1M") (footprint "R0402")
     )
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/def69f9e-1f6f-488c-a544-1d74f89517b2"
-      (reference "R?") (unit 1) (value "10R") (footprint "R0402")
+      (reference "R?") (unit 1) (value "10k") (footprint "R0402")
     )
     (path "/5431a3ef-e3a9-462a-b9dc-2ffdf9ab7e55/f7e0345b-e8af-450c-8916-adaffcc72838"
       (reference "R?") (unit 1) (value "1M") (footprint "R0402")
