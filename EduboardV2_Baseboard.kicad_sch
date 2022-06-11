@@ -355,9 +355,6 @@
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/e4402beb-27dd-4e63-8002-a4c0c3ffca5e"
       (reference "#PWR0605") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/079bc49e-d545-405c-843f-4b3e915cef08/5af24f67-49c9-42c2-8167-487ba0c23939"
-      (reference "#PWR0606") (unit 1) (value "GND") (footprint "")
-    )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/eaa2c3e6-f87b-458d-a00c-4b1531593806"
       (reference "#PWR0607") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -449,6 +446,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/80263c08-d824-45ff-94aa-0267b72c4732"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/82c1e69f-3f84-4b98-acd1-749bba9570f6"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/870c6bca-28de-47d4-bb79-1a676cb1e32b"
@@ -913,8 +913,8 @@
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/f8abf6c4-1dcf-446b-a256-f91d5bc3a291"
       (reference "X502") (unit 1) (value "S4B-PH-SM4-K-TB(LF)(SN)") (footprint "CONN-SMD_S4B-PH-SM4-K-TB-LF-SN")
     )
-    (path "/079bc49e-d545-405c-843f-4b3e915cef08/44a8d9bc-01ea-442c-a6a5-d4200373c99d"
-      (reference "X601") (unit 1) (value "KF2EDGR-3.81-3P") (footprint "CONN-TH_3P-P3.81_KF2EDGR-3.81-3P")
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/045d2143-6630-4bc7-acc1-9c7297b9ac44"
+      (reference "X?") (unit 1) (value "KF2EDGR-3.81-3P") (footprint "CONN-TH_3P-P3.81_KF2EDGR-3.81-3P")
     )
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/3502addc-4b97-4059-bd03-0a85b21adca4"
       (reference "X?") (unit 1) (value "PJ-327C-4A") (footprint "AUDIO-SMD_PJ-327C-4A")
