@@ -433,6 +433,9 @@
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/575f4495-38c6-4914-9aa0-27fe8f010b02"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/60fa0e08-3137-4dab-914b-f43cc4045804"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/62bcf0b6-92af-40da-99c8-9322c7a18c11"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -476,6 +479,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/e1410ca0-5dd9-43eb-bef3-4b677c27781e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/ea18eee9-7b6a-4fb8-9994-882aa2d8c209"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/8c2f67cf-50fc-4b7f-8485-f30567349b4e"
@@ -910,11 +916,8 @@
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/44a8d9bc-01ea-442c-a6a5-d4200373c99d"
       (reference "X601") (unit 1) (value "KF2EDGR-3.81-3P") (footprint "CONN-TH_3P-P3.81_KF2EDGR-3.81-3P")
     )
-    (path "/079bc49e-d545-405c-843f-4b3e915cef08/15770564-8e4e-4788-8f2d-3a0fefffa1ab"
-      (reference "X602") (unit 1) (value "PJ-327C-4A") (footprint "AUDIO-SMD_PJ-327C-4A")
-    )
-    (path "/079bc49e-d545-405c-843f-4b3e915cef08/8ef762e1-2a87-413b-874d-9a719ca5f3af"
-      (reference "X603") (unit 1) (value "PJ-327C-4A") (footprint "AUDIO-SMD_PJ-327C-4A")
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/3502addc-4b97-4059-bd03-0a85b21adca4"
+      (reference "X?") (unit 1) (value "PJ-327C-4A") (footprint "AUDIO-SMD_PJ-327C-4A")
     )
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/776151a4-a5fd-43bb-9e3b-e5ddb7f8ffbb"
       (reference "X?") (unit 1) (value "USB3.1C16PFSMT") (footprint "USB-C-SMD_TYPE-C-USB-17")
@@ -924,6 +927,9 @@
     )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/bc38f1b7-3522-46da-9f4b-1db86a42211b"
       (reference "X?") (unit 1) (value "CH340G") (footprint "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL")
+    )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/d2cfe4a6-b58a-4534-b883-7f99145ac536"
+      (reference "X?") (unit 1) (value "PJ-327C-4A") (footprint "AUDIO-SMD_PJ-327C-4A")
     )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/f3497c0f-5286-4bbd-84bc-7c2f16077101"
       (reference "Y?") (unit 1) (value "X322512MSB4SI") (footprint "OSC-SMD_4P-L3.2-W2.5-BL")
