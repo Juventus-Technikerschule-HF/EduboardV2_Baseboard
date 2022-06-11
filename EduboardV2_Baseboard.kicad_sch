@@ -409,6 +409,12 @@
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/38a49840-0cd2-4ca1-883c-88432fe96879"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/39939d51-ca07-43cf-a701-7079a2550e4c"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/3d8cedb6-915b-4523-96ac-551dbe37ab93"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/4a6a2101-9c1a-4f93-8f80-d4194741ef63"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -424,11 +430,17 @@
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/676d4418-3404-4635-9efe-13a77310a95c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/7ec8748c-dda4-44b7-8f52-09cb764d2981"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/80263c08-d824-45ff-94aa-0267b72c4732"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/870c6bca-28de-47d4-bb79-1a676cb1e32b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/8cab4200-d0a6-49d3-8ad0-caaa9173dfdc"
+      (reference "#PWR?") (unit 1) (value "V_USB") (footprint "")
     )
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/96973e89-e124-4326-8d41-1e5cee004cf9"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -627,6 +639,12 @@
     )
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/5eaefda3-1a9d-48ce-9981-d272d40f64b8"
       (reference "D411") (unit 1) (value "1N4148WST4") (footprint "SOD-323_L1.8-W1.3-LS2.5-RD")
+    )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/44c7fb0e-1b38-449f-98c5-adc5230d6038"
+      (reference "D?") (unit 1) (value "PRTR5V0U2X_C2827688") (footprint "SOT-143-4_L2.9-W1.3-P1.92-LS2.4-BL")
+    )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/72814375-9781-4c77-86c6-a31a19259779"
+      (reference "D?") (unit 1) (value "PRTR5V0U2X_C2827688") (footprint "SOT-143-4_L2.9-W1.3-P1.92-LS2.4-BL")
     )
     (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/ef7f239c-328b-4432-9114-52f1dc9b5d40"
       (reference "IC202") (unit 1) (value "PCF8563T_5,518") (footprint "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
