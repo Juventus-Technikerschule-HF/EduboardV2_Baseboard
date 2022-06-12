@@ -25,9 +25,9 @@
   (fp_circle (center 0 0) (end 0.35 0) (layer "F.Fab") (width 0.7) (fill none) (tstamp 4178273b-29a8-4d4f-a298-548cd6c737f9))
   (fp_circle (center -3.81 0) (end -3.46 0) (layer "F.Fab") (width 0.7) (fill none) (tstamp 5fa86a38-7a6f-404e-963d-8b865ef8a71a))
   (fp_circle (center -6.33 8.03) (end -6.3 8.03) (layer "F.Fab") (width 0.06) (fill none) (tstamp e92091d4-8d33-4ff8-ba4d-c6e026ef50fa))
-  (pad "1" thru_hole circle (at -3.81 0) (size 2.4 2.4) (drill 1.599997) (layers *.Cu *.Paste *.Mask) (tstamp 2a4498b3-49e7-4777-b911-517b6845a883))
-  (pad "2" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.599997) (layers *.Cu *.Paste *.Mask) (tstamp 61062d05-ee7e-4f06-b3b4-d2da17b80d09))
-  (pad "3" thru_hole circle (at 3.81 0) (size 2.4 2.4) (drill 1.599997) (layers *.Cu *.Paste *.Mask) (tstamp b68693ac-1f05-417d-9cee-01ca939e170c))
+  (pad "1" thru_hole circle (at -3.81 0) (size 2.4 2.4) (drill 1.599997) (layers *.Cu *.Mask) (tstamp 2a4498b3-49e7-4777-b911-517b6845a883))
+  (pad "2" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.599997) (layers *.Cu *.Mask) (tstamp 61062d05-ee7e-4f06-b3b4-d2da17b80d09))
+  (pad "3" thru_hole circle (at 3.81 0) (size 2.4 2.4) (drill 1.599997) (layers *.Cu *.Mask) (tstamp b68693ac-1f05-417d-9cee-01ca939e170c))
   (model "${KIPRJMOD}/eduboardv2.3dshapes/CONN-TH_3P-P3.81_KF2EDGR-3.81-3P.wrl"
     (offset (xyz 0 -3.2 0))
     (scale (xyz 1 1 1))
