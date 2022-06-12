@@ -523,6 +523,21 @@
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/210342a5-901f-4edf-a0ba-d2f9a640c75e"
       (reference "#PWR0624") (unit 1) (value "GND") (footprint "")
     )
+    (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/3b89254e-10db-417f-a189-b10171b3793b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/63a14bdd-c725-434d-8e9b-078070460702"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/9260783a-c934-4d61-8cc6-946082e581bd"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/bfc43783-6a70-4aca-9c44-e026d6a738b7"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/cde406c7-34da-4e93-b175-da9b78b06af6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/8c2f67cf-50fc-4b7f-8485-f30567349b4e"
       (reference "BUZZER401") (unit 1) (value "MLT-8530") (footprint "eduboardv2:BUZ-SMD_4P-L8.5-W8.5-P8.50-TL")
     )
@@ -927,6 +942,15 @@
     )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/623959e2-34ab-4046-816a-cea006832ebf"
       (reference "R607") (unit 1) (value "470R") (footprint "eduboardv2:R0402")
+    )
+    (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/048a97ab-2161-4d04-a87f-de5d5a1eed47"
+      (reference "R?") (unit 1) (value "10k") (footprint "eduboardv2:R0402")
+    )
+    (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/e2a0ae34-6c95-453f-9bec-630d698c2a76"
+      (reference "R?") (unit 1) (value "10k") (footprint "eduboardv2:R0402")
+    )
+    (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/ed187715-d2d1-483c-9c14-c1540b8a0bd3"
+      (reference "R?") (unit 1) (value "10k") (footprint "eduboardv2:R0402")
     )
     (path "/5431a3ef-e3a9-462a-b9dc-2ffdf9ab7e55/f0f5abe6-aa44-4184-a0d5-c411d6894f4c"
       (reference "SW301") (unit 1) (value "1FS1T1B9M2RES-5") (footprint "eduboardv2:SW-TH_1FS1T1B9M2RES-5")
