@@ -712,6 +712,9 @@
     (path "/5431a3ef-e3a9-462a-b9dc-2ffdf9ab7e55/f850cf45-2a86-4876-9211-e95090c9d345"
       (reference "IC302") (unit 1) (value "SY8113BADC") (footprint "eduboardv2:TSOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR")
     )
+    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/ffdca32d-a842-4258-8989-0e19f36b7302"
+      (reference "IC501") (unit 1) (value "USB2514BI-AEZG-TR") (footprint "QFN-36_L6.0-W6.0-P0.50-BL-EP")
+    )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/2b8236c9-fe89-465d-b207-cb557941ec30"
       (reference "IC601") (unit 1) (value "SP3485EN-L_TR") (footprint "eduboardv2:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
     )
@@ -939,6 +942,9 @@
     )
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/41ca0087-602c-4c6a-a638-623bace8cf31"
       (reference "SW404") (unit 1) (value "K2-1102SP-C4SC-04") (footprint "eduboardv2:KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BL")
+    )
+    (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/8a25f298-3661-4baa-9e4b-cf5fee9ff7cd"
+      (reference "SW405") (unit 1) (value "PEC11R-4220F-S0012") (footprint "SW-TH_PEC11R-4220F-S0012")
     )
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/d561cf43-102d-4880-aa0a-3683f27b5311"
       (reference "T401") (unit 1) (value "AO3400A") (footprint "eduboardv2:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR")
