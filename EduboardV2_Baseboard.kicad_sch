@@ -760,9 +760,6 @@
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/8ab338a5-48e2-4a4b-a1a5-ac2e383eefa1"
       (reference "IC604") (unit 1) (value "CS4344-CZZ") (footprint "eduboardv2:TSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL")
     )
-    (path "/079bc49e-d545-405c-843f-4b3e915cef08/986cd48a-881a-4999-bd52-e49399777384"
-      (reference "IC605") (unit 1) (value "STK8321") (footprint "eduboardv2:LGA-12_L2.0-W2.0-P0.50-TR")
-    )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/80e88525-7435-4c89-859c-41fcf3e6e5c6"
       (reference "IC606") (unit 1) (value "MCP9700AT-E_TT") (footprint "eduboardv2:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR")
     )
