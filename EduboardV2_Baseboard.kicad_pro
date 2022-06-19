@@ -434,6 +434,10 @@
     [
       "079bc49e-d545-405c-843f-4b3e915cef08",
       "Sensors and Interfaces"
+    ],
+    [
+      "6b6170a0-77d8-4257-81b7-1841431d5fbe",
+      "USB-Hub"
     ]
   ],
   "text_variables": {}
