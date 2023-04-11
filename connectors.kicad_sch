@@ -2079,7 +2079,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 227.33 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01e28c9c-fc05-4aac-b9fd-7d532d036a81)
-    (property "Reference" "JP501" (at 228.6 43.18 0)
+    (property "Reference" "JP1" (at 228.6 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Stemma Voltage Selector" (at 238.76 45.72 0)
@@ -2097,7 +2097,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "JP501") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
     )
@@ -2106,7 +2106,7 @@
   (symbol (lib_id "eduboardv2:KF2EDGR-3.81-3P") (at 260.35 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 045d2143-6630-4bc7-acc1-9c7297b9ac44)
-    (property "Reference" "X507" (at 264.16 93.9799 0)
+    (property "Reference" "X13" (at 264.16 93.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "KF2EDGR-3.81-3P" (at 264.16 96.5199 0)
@@ -2136,7 +2136,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "X507") (unit 1)
+          (reference "X13") (unit 1)
         )
       )
     )
@@ -2145,7 +2145,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 66.04 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fc1a8b9-b789-4dbb-a855-d62e7c5b35ff)
-    (property "Reference" "#PWR0508" (at 66.04 163.83 0)
+    (property "Reference" "#PWR0113" (at 66.04 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 162.56 0)
@@ -2161,7 +2161,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0508") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -2170,7 +2170,7 @@
   (symbol (lib_id "eduboardv2:+5V") (at 261.62 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16b544c9-76d8-407a-9201-13fb1dee8954)
-    (property "Reference" "#PWR0527" (at 261.62 157.48 0)
+    (property "Reference" "#PWR0132" (at 261.62 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 261.62 148.59 0)
@@ -2186,7 +2186,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0527") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -2195,7 +2195,7 @@
   (symbol (lib_id "eduboardv2:0402WGF5101TCE") (at 80.01 180.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18ba293a-a470-45d5-8b52-89d4c96e4d61)
-    (property "Reference" "R502" (at 82.55 179.0699 90)
+    (property "Reference" "R50" (at 82.55 179.0699 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.1k" (at 82.55 181.6099 90)
@@ -2224,7 +2224,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "R502") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -2233,7 +2233,7 @@
   (symbol (lib_name "0402WGF100JTCE_10") (lib_id "eduboardv2:0402WGF100JTCE") (at 200.66 44.45 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19d77d29-39a2-4e3a-a778-6a30dea648e0)
-    (property "Reference" "R504" (at 200.66 41.91 0)
+    (property "Reference" "R52" (at 200.66 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 200.66 46.99 0)
@@ -2262,7 +2262,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "R504") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -2271,7 +2271,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 100.33 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b995c87-0370-466e-ae87-4d13f44cb62d)
-    (property "Reference" "#PWR0513" (at 100.33 153.67 0)
+    (property "Reference" "#PWR0118" (at 100.33 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.33 152.4 0)
@@ -2287,7 +2287,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0513") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -2296,7 +2296,7 @@
   (symbol (lib_id "eduboardv2:V_USB") (at 72.39 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20614bf1-5755-463c-943b-d0698d0c82c7)
-    (property "Reference" "#PWR0509" (at 72.39 165.1 0)
+    (property "Reference" "#PWR0114" (at 72.39 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "V_USB" (at 72.39 156.21 0)
@@ -2312,7 +2312,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0509") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -2321,7 +2321,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 50.8 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f2d975c-f451-4375-951e-439d7c8f8cd0)
-    (property "Reference" "#PWR0506" (at 50.8 196.85 0)
+    (property "Reference" "#PWR0111" (at 50.8 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 195.58 0)
@@ -2337,7 +2337,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0506") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -2346,7 +2346,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 80.01 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fdfa767-adb0-4f46-ab3b-8300107f1318)
-    (property "Reference" "#PWR0510" (at 80.01 195.58 0)
+    (property "Reference" "#PWR0115" (at 80.01 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 194.31 0)
@@ -2362,7 +2362,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0510") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -2371,7 +2371,7 @@
   (symbol (lib_name "PJ-327C-4A_1") (lib_id "eduboardv2:PJ-327C-4A") (at 254 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3502addc-4b97-4059-bd03-0a85b21adca4)
-    (property "Reference" "X505" (at 264.16 114.2999 0)
+    (property "Reference" "X11" (at 264.16 114.2999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PJ-327C-4A" (at 264.16 116.8399 0)
@@ -2402,7 +2402,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "X505") (unit 1)
+          (reference "X11") (unit 1)
         )
       )
     )
@@ -2411,7 +2411,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 261.62 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 382d2937-c7ab-435f-a280-603e5450c2dd)
-    (property "Reference" "#PWR0528" (at 261.62 165.1 0)
+    (property "Reference" "#PWR0133" (at 261.62 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 163.83 0)
@@ -2427,7 +2427,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0528") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -2436,7 +2436,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 118.11 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38a49840-0cd2-4ca1-883c-88432fe96879)
-    (property "Reference" "#PWR0515" (at 118.11 163.83 0)
+    (property "Reference" "#PWR0120" (at 118.11 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 162.56 0)
@@ -2452,7 +2452,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0515") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -2461,7 +2461,7 @@
   (symbol (lib_id "eduboardv2:+5V") (at 93.98 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39939d51-ca07-43cf-a701-7079a2550e4c)
-    (property "Reference" "#PWR0511" (at 93.98 137.16 0)
+    (property "Reference" "#PWR0116" (at 93.98 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 93.98 128.27 0)
@@ -2477,7 +2477,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0511") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
@@ -2486,7 +2486,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 93.98 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d8cedb6-915b-4523-96ac-551dbe37ab93)
-    (property "Reference" "#PWR0512" (at 93.98 152.4 0)
+    (property "Reference" "#PWR0117" (at 93.98 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 149.86 0)
@@ -2502,7 +2502,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0512") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -2511,7 +2511,7 @@
   (symbol (lib_name "0402WGF5101TCE_1") (lib_id "eduboardv2:0402WGF5101TCE") (at 17.78 172.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f3eed9c-d88c-412c-9725-6cce88b4fc1b)
-    (property "Reference" "R501" (at 20.32 171.4499 90)
+    (property "Reference" "R49" (at 20.32 171.4499 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 20.32 173.9899 90)
@@ -2540,7 +2540,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "R501") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -2549,7 +2549,7 @@
   (symbol (lib_id "eduboardv2:PRTR5V0U2X_C2827688") (at 41.91 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44c7fb0e-1b38-449f-98c5-adc5230d6038)
-    (property "Reference" "D501" (at 50.165 138.8653 0)
+    (property "Reference" "D17" (at 50.165 138.8653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PRTR5V0U2X_C2827688" (at 50.165 141.4022 0)
@@ -2577,7 +2577,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "D501") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
@@ -2586,7 +2586,7 @@
   (symbol (lib_name "AO3400A_1") (lib_id "eduboardv2:AO3400A") (at 190.5 29.21 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e609e9d-f60f-416c-8117-60a75f130d15)
-    (property "Reference" "T501" (at 198.12 29.21 0)
+    (property "Reference" "T7" (at 198.12 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AO3400A" (at 185.42 36.83 90)
@@ -2616,7 +2616,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "T501") (unit 1)
+          (reference "T7") (unit 1)
         )
       )
     )
@@ -2625,7 +2625,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 248.92 22.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 522a8c63-6172-48c7-b790-6bdf5515972e)
-    (property "Reference" "#PWR0524" (at 248.92 16.51 0)
+    (property "Reference" "#PWR0129" (at 248.92 16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 19.05 0)
@@ -2641,7 +2641,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0524") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -2650,7 +2650,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 248.92 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5307e878-e454-41ce-ba14-f27dd4ca202a)
-    (property "Reference" "#PWR0525" (at 248.92 46.99 0)
+    (property "Reference" "#PWR0130" (at 248.92 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.92 44.45 0)
@@ -2666,7 +2666,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0525") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -2675,7 +2675,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 48.26 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53fc2d41-bbf2-4cd3-a8bd-6ea0fa68c209)
-    (property "Reference" "#PWR0505" (at 48.26 196.85 0)
+    (property "Reference" "#PWR0110" (at 48.26 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 195.58 0)
@@ -2691,7 +2691,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0505") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -2700,7 +2700,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 228.6 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60fa0e08-3137-4dab-914b-f43cc4045804)
-    (property "Reference" "#PWR0520" (at 228.6 125.73 0)
+    (property "Reference" "#PWR0125" (at 228.6 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 124.46 0)
@@ -2716,7 +2716,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0520") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -2725,7 +2725,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 105.41 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 676d4418-3404-4635-9efe-13a77310a95c)
-    (property "Reference" "#PWR0514" (at 105.41 196.85 0)
+    (property "Reference" "#PWR0119" (at 105.41 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 195.58 0)
@@ -2741,7 +2741,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0514") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -2750,7 +2750,7 @@
   (symbol (lib_name "0402WGF100JTCE_10") (lib_id "eduboardv2:0402WGF100JTCE") (at 200.66 24.13 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a0412f6-45c4-42f9-af7a-28319133d122)
-    (property "Reference" "R503" (at 200.66 21.59 0)
+    (property "Reference" "R51" (at 200.66 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 200.66 26.67 0)
@@ -2779,7 +2779,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "R503") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -2788,7 +2788,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 271.78 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f907c5d-3472-44eb-85cd-56be22a1cc7f)
-    (property "Reference" "J501" (at 273.812 155.3753 0)
+    (property "Reference" "J2" (at 273.812 155.3753 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_WS2812_Extern" (at 262.89 162.56 0)
@@ -2806,7 +2806,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "J501") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2815,7 +2815,7 @@
   (symbol (lib_name "PRTR5V0U2X_C2827688_1") (lib_id "eduboardv2:PRTR5V0U2X_C2827688") (at 99.06 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72814375-9781-4c77-86c6-a31a19259779)
-    (property "Reference" "D502" (at 107.315 138.8653 0)
+    (property "Reference" "D18" (at 107.315 138.8653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PRTR5V0U2X_C2827688" (at 107.315 141.4022 0)
@@ -2843,7 +2843,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "D502") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -2852,7 +2852,7 @@
   (symbol (lib_id "eduboardv2:USB3.1C16PFSMT") (at 106.68 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 776151a4-a5fd-43bb-9e3b-e5ddb7f8ffbb)
-    (property "Reference" "X503" (at 109.9694 149.86 0)
+    (property "Reference" "X9" (at 109.9694 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USB3.1C16PFSMT" (at 109.9694 152.4 0)
@@ -2876,10 +2876,10 @@
     (property "MPN" "USB3.1C16PFSMT" (at 106.68 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "0" (uuid d3b6704e-a946-45bc-a45f-7c452fb1885b))
-    (pin "0" (uuid d3b6704e-a946-45bc-a45f-7c452fb1885b))
-    (pin "0" (uuid d3b6704e-a946-45bc-a45f-7c452fb1885b))
-    (pin "0" (uuid d3b6704e-a946-45bc-a45f-7c452fb1885b))
+    (pin "0" (uuid d3b6704e-a946-45bc-a45f-7c452fb18867))
+    (pin "0" (uuid d3b6704e-a946-45bc-a45f-7c452fb18867))
+    (pin "0" (uuid d3b6704e-a946-45bc-a45f-7c452fb18867))
+    (pin "0" (uuid d3b6704e-a946-45bc-a45f-7c452fb18867))
     (pin "A1" (uuid 9c8792bb-23f1-429e-9ca3-f68393cbf969))
     (pin "A12" (uuid 01e4ea8c-df54-45fa-81d5-c89855941dfc))
     (pin "A4" (uuid 4b843238-2d9a-4fc3-bf94-40e5bfce71ac))
@@ -2895,7 +2895,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "X503") (unit 1)
+          (reference "X9") (unit 1)
         )
       )
     )
@@ -2904,7 +2904,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 36.83 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ec8748c-dda4-44b7-8f52-09cb764d2981)
-    (property "Reference" "#PWR0503" (at 36.83 152.4 0)
+    (property "Reference" "#PWR0108" (at 36.83 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 149.86 0)
@@ -2920,7 +2920,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0503") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -2929,7 +2929,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 255.27 95.25 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82c1e69f-3f84-4b98-acd1-749bba9570f6)
-    (property "Reference" "#PWR0526" (at 248.92 95.25 0)
+    (property "Reference" "#PWR0131" (at 248.92 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 95.25 90)
@@ -2945,7 +2945,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0526") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -2954,7 +2954,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 17.78 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 870c6bca-28de-47d4-bb79-1a676cb1e32b)
-    (property "Reference" "#PWR0501" (at 17.78 194.31 0)
+    (property "Reference" "#PWR0106" (at 17.78 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 17.78 193.04 0)
@@ -2970,7 +2970,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0501") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -2979,7 +2979,7 @@
   (symbol (lib_id "eduboardv2:USB3.1C16PFSMT") (at 49.53 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8939b149-1453-4870-adce-f9f0374bca88)
-    (property "Reference" "X502" (at 52.8194 149.86 0)
+    (property "Reference" "X8" (at 52.8194 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USB3.1C16PFSMT" (at 52.8194 152.4 0)
@@ -3003,10 +3003,10 @@
     (property "MPN" "USB3.1C16PFSMT" (at 49.53 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "0" (uuid 5b7b3b4d-5b3f-48dc-bfec-59c69280c274))
-    (pin "0" (uuid 5b7b3b4d-5b3f-48dc-bfec-59c69280c274))
-    (pin "0" (uuid 5b7b3b4d-5b3f-48dc-bfec-59c69280c274))
-    (pin "0" (uuid 5b7b3b4d-5b3f-48dc-bfec-59c69280c274))
+    (pin "0" (uuid 5b7b3b4d-5b3f-48dc-bfec-59c69280c280))
+    (pin "0" (uuid 5b7b3b4d-5b3f-48dc-bfec-59c69280c280))
+    (pin "0" (uuid 5b7b3b4d-5b3f-48dc-bfec-59c69280c280))
+    (pin "0" (uuid 5b7b3b4d-5b3f-48dc-bfec-59c69280c280))
     (pin "A1" (uuid 8684fa6f-300d-49f8-9edc-3b8829c9ef15))
     (pin "A12" (uuid 89e4fbcd-7aac-470d-a840-2cf5ffab8d3d))
     (pin "A4" (uuid d6388d64-927f-44f7-952f-1b9ff56fd101))
@@ -3022,7 +3022,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "X502") (unit 1)
+          (reference "X8") (unit 1)
         )
       )
     )
@@ -3031,7 +3031,7 @@
   (symbol (lib_id "eduboardv2:+5V") (at 222.25 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8bff7487-f86c-441d-830d-b7aa1e83a612)
-    (property "Reference" "#PWR0519" (at 226.06 40.64 0)
+    (property "Reference" "#PWR0124" (at 226.06 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 217.17 40.64 0)
@@ -3047,7 +3047,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0519") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -3056,7 +3056,7 @@
   (symbol (lib_id "eduboardv2:V_USB") (at 36.83 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cab4200-d0a6-49d3-8ad0-caaa9173dfdc)
-    (property "Reference" "#PWR0502" (at 36.83 137.16 0)
+    (property "Reference" "#PWR0107" (at 36.83 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "V_USB" (at 36.83 128.27 0)
@@ -3072,7 +3072,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0502") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -3081,7 +3081,7 @@
   (symbol (lib_id "eduboardv2:BH-00105") (at 27.94 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93bc27ed-bdc7-48ef-997e-b8f39ccf98c0)
-    (property "Reference" "X501" (at 27.94 33.02 0)
+    (property "Reference" "X7" (at 27.94 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BH-00105" (at 27.94 35.56 0)
@@ -3148,7 +3148,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "X501") (unit 1)
+          (reference "X7") (unit 1)
         )
       )
     )
@@ -3157,7 +3157,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 48.26 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96973e89-e124-4326-8d41-1e5cee004cf9)
-    (property "Reference" "#PWR0504" (at 48.26 146.05 0)
+    (property "Reference" "#PWR0109" (at 48.26 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 148.59 0)
@@ -3173,7 +3173,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0504") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -3182,7 +3182,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 237.49 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4ffeadd-2d75-4aec-9abc-c466cd45843e)
-    (property "Reference" "#PWR0523" (at 237.49 43.18 0)
+    (property "Reference" "#PWR0128" (at 237.49 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 41.91 0)
@@ -3198,7 +3198,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0523") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -3207,7 +3207,7 @@
   (symbol (lib_id "eduboardv2:+3.3V") (at 190.5 24.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9a00f55-d33a-4d46-a067-a89b155013c5)
-    (property "Reference" "#PWR0517" (at 190.5 27.94 0)
+    (property "Reference" "#PWR0122" (at 190.5 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 190.5 19.05 0)
@@ -3223,7 +3223,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0517") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -3232,7 +3232,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 118.11 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afeb230c-9b2f-439b-9ffb-adabd9e5f13a)
-    (property "Reference" "#PWR0516" (at 118.11 191.77 0)
+    (property "Reference" "#PWR0121" (at 118.11 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 190.5 0)
@@ -3248,7 +3248,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0516") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -3257,7 +3257,7 @@
   (symbol (lib_name "AO3400A_1") (lib_id "eduboardv2:AO3400A") (at 190.5 49.53 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2e60a04-f7e5-4937-b79a-f064a9efc5a1)
-    (property "Reference" "T502" (at 198.12 49.53 0)
+    (property "Reference" "T8" (at 198.12 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AO3400A" (at 185.42 57.15 90)
@@ -3287,7 +3287,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "T502") (unit 1)
+          (reference "T8") (unit 1)
         )
       )
     )
@@ -3296,7 +3296,7 @@
   (symbol (lib_id "eduboardv2:PJ-327C-4A") (at 254 132.08 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2cfe4a6-b58a-4534-b883-7f99145ac536)
-    (property "Reference" "X506" (at 264.16 132.0799 0)
+    (property "Reference" "X12" (at 264.16 132.0799 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PJ-327C-4A" (at 264.16 134.6199 0)
@@ -3327,7 +3327,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "X506") (unit 1)
+          (reference "X12") (unit 1)
         )
       )
     )
@@ -3336,7 +3336,7 @@
   (symbol (lib_id "eduboardv2:+3.3V") (at 190.5 44.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcfed4b9-a5fc-4553-ba62-9848236e1254)
-    (property "Reference" "#PWR0518" (at 190.5 48.26 0)
+    (property "Reference" "#PWR0123" (at 190.5 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 190.5 39.37 0)
@@ -3352,7 +3352,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0518") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -3361,7 +3361,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 64.77 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1410ca0-5dd9-43eb-bef3-4b677c27781e)
-    (property "Reference" "#PWR0507" (at 64.77 195.58 0)
+    (property "Reference" "#PWR0112" (at 64.77 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 194.31 0)
@@ -3377,7 +3377,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0507") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -3386,7 +3386,7 @@
   (symbol (lib_id "eduboardv2:+3.3V") (at 232.41 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3720445-3f5c-471b-9aeb-789141c94a99)
-    (property "Reference" "#PWR0522" (at 228.6 40.64 0)
+    (property "Reference" "#PWR0127" (at 228.6 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 234.1138 39.243 0)
@@ -3402,7 +3402,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0522") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -3411,7 +3411,7 @@
   (symbol (lib_id "eduboardv2:GND") (at 228.6 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea18eee9-7b6a-4fb8-9994-882aa2d8c209)
-    (property "Reference" "#PWR0521" (at 228.6 144.78 0)
+    (property "Reference" "#PWR0126" (at 228.6 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 143.51 0)
@@ -3427,7 +3427,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "#PWR0521") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -3436,7 +3436,7 @@
   (symbol (lib_id "eduboardv2:S4B-PH-SM4-K-TB(LF)(SN)") (at 243.84 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8abf6c4-1dcf-446b-a256-f91d5bc3a291)
-    (property "Reference" "X504" (at 252.73 30.4799 0)
+    (property "Reference" "X10" (at 252.73 30.4799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "S4B-PH-SM4-K-TB(LF)(SN)" (at 252.73 33.0199 0)
@@ -3469,7 +3469,7 @@
     (instances
       (project "EduboardV2_Baseboard"
         (path "/280adf03-05ea-4001-ab24-a5a43e6d4cc9/bbe51f60-6efe-4402-8542-2dfbd71b2c52"
-          (reference "X504") (unit 1)
+          (reference "X10") (unit 1)
         )
       )
     )
