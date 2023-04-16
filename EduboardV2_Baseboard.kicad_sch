@@ -104,7 +104,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid dc18459b-bf67-402d-bc74-ca4debdbcff4)
-    (property "Sheetname" "UP-Connector, RTC and Flash" (at 38.1 24.6884 0)
+    (property "Sheetname" "UP-Connector" (at 38.1 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "up_rtc_flash.kicad_sch" (at 38.1 38.6846 0)
