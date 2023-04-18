@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -63,8 +63,8 @@
       35,
       36
     ],
-    "visible_layers": "fe1ffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "fe0f7ff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "EduboardV2_Baseboard.kicad_prl",
