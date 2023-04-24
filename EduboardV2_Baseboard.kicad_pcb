@@ -1129,7 +1129,7 @@
     (property "TouchController Datasheet" "https://www.buydisplay.com/download/ic/FT6236-FT6336-FT6436L-FT6436_Datasheet.pdf")
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/f3d8596a-e3b5-4c56-b09f-adc3e74a10db")
     (attr smd)
-    (fp_text reference "X9" (at 0 -6.59 90) (layer "F.SilkS")
+    (fp_text reference "X9" (at 0 -6.59 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0accccad-5f1a-45a8-b740-66cc3c583c97)
     )
@@ -27584,7 +27584,7 @@
 
   (footprint "EduboardV2_kicadlib:logo4" (layer "F.Cu")
     (tstamp 15abb358-35f4-4b64-8045-d181227c6a33)
-    (at 93.95 106.1)
+    (at 91.253386 109.356432)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -38374,7 +38374,7 @@
     (property "ki_description" "2.54mm -40℃~+105℃ Brick nogging 3A 20 Push - Pull 2.54mm 2 SMD,P=2.54mm  IDC Connectors ROHS")
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/93bc27ed-bdc7-48ef-997e-b8f39ccf98c0")
     (attr smd)
-    (fp_text reference "X7" (at 0 -7.2 90) (layer "F.SilkS")
+    (fp_text reference "X7" (at 0 -7.2 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a37cb6a4-9e59-4571-8726-a43640013151)
     )
