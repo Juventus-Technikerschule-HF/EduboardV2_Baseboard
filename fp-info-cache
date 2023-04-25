@@ -1,4 +1,4 @@
-22769968368402833
+22786793852701330
 5-1734592-0
 TE_5-1734592-0
 
@@ -53676,6 +53676,20 @@ SW-TH_PEC11R-4220F-S0012
 7
 6
 EduboardV2_kicadlib
+SolderJumper_Small-3_bridged12
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
+net tie solder jumper bridged
+0
+3
+3
+EduboardV2_kicadlib
+SolderJumper_Small-4_bridged14
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
+net tie solder jumper bridged
+0
+4
+4
+EduboardV2_kicadlib
 TF-SMD_TF-15-15
 
 
@@ -53690,6 +53704,13 @@ TQFN-36_L6.0-W6.0-P0.50-BL-EP3.7
 37
 37
 EduboardV2_kicadlib
+TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL
+
+
+0
+32
+32
+EduboardV2_kicadlib
 TSOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
 
 
@@ -53703,6 +53724,20 @@ USB-C-SMD_TYPE-C-USB-17
 0
 16
 13
+EduboardV2_kicadlib
+VFQFN-32_L5.0-W5.0-P0.50-BL-EP3.6
+
+
+0
+33
+33
+EduboardV2_kicadlib
+VQFN-44_L7.0-W7.0-P0.50-BL-EP5.2
+
+
+0
+45
+45
 EduboardV2_kicadlib
 WIFIM-SMD_ESP32-WROOM-32-N4
 
@@ -53726,6 +53761,41 @@ logo3
 0
 EduboardV2_kicadlib
 logo4
+
+
+0
+0
+0
+EduboardV2_kicadlib
+logo_earth
+
+
+0
+0
+0
+EduboardV2_kicadlib
+logo_head
+
+
+0
+0
+0
+EduboardV2_kicadlib
+logo_moon
+
+
+0
+0
+0
+EduboardV2_kicadlib
+logo_rocket
+
+
+0
+0
+0
+EduboardV2_kicadlib
+logo_sun
 
 
 0
