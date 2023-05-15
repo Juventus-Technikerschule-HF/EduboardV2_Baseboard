@@ -2675,6 +2675,11 @@
     (uuid fdcc94ec-3542-4bfe-b348-37afdd8868c9)
   )
 
+  (text "Power Lanes too small.\n3.3 @ 2A goes down to 2.7V\n5V @ 1A goes down to 4.8V\nhave to check 5V Switching, if this has an impact"
+    (at 71.12 100.33 0)
+    (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
+    (uuid 598835eb-7fef-4838-acad-47b82b71a121)
+  )
   (text "Power\n- PSU-DC/DC Converter\n- 8-12V->5V: XL1509-5.0E1\n- 5->3.3V: SY8113BADC\n- Automatic Switch between 5V-Extern and 5V-USB"
     (at 13.97 24.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
