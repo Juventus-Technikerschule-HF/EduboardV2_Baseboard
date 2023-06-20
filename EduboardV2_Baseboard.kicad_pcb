@@ -96,7 +96,7 @@
     )
   )
 
-  (property "hwVersion" "2.0")
+  (property "hwVersion" "2.1")
 
   (net 0 "")
   (net 1 "+3.3V")
