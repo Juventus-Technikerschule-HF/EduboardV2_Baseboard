@@ -3287,7 +3287,7 @@
     (property "Manufacturer" "UniOhm" (at 193.04 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part" "C26083" (at 193.04 87.63 0)
+    (property "LCSC Part" "C25741" (at 193.04 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "JLC Part" "Basic Part" (at 193.04 90.17 0)
