@@ -4408,10 +4408,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c9f3bc49-4f7b-410f-bb1c-ffa69915e54f)
   )
-  (text "Display Connection reversed. \n1 -> 39\n2 -> 40" (at 199.39 113.665 0)
-    (effects (font (size 1.27 1.27) (color 251 0 0 1)) (justify left bottom))
-    (uuid df915d3d-bebe-472d-891c-d1f25c6c0211)
-  )
 
   (global_label "SDCARD_CS" (shape input) (at 241.935 130.81 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
