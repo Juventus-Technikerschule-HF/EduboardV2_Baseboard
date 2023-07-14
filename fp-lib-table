@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name "eduboardv2")(type "KiCad")(uri "${KIPRJMOD}/eduboardv2.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "eduboardv2")(type "KiCad")(uri "${KIPRJMOD}/eduboardv2.pretty")(options "")(descr "")(disabled))
+  (lib (name "EduboardV2_kicadlib")(type "KiCad")(uri "${EduboardV2_kicadlib}/EduboardV2_kicadlib.pretty")(options "")(descr ""))
 )
