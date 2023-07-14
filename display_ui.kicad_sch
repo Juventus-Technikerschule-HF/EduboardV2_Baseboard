@@ -4390,7 +4390,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3b8d7785-c183-457b-8ff4-df6bf1fded3e)
   )
-  (text "Display: ER-TFTM035-6\n\nTouch Controller: FT6236\n" (at 261.62 153.67 0)
+  (text "Display: ER-TFTM035-6\n\nTouch Controller: FT6236\n\nhttps://www.buydisplay.com/lcd-3-5-inch-320x480-tft-display-module-optl-touch-screen-w-breakout-board"
+    (at 261.62 153.67 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 46941962-c997-4e21-b30e-7330eac35f09)
   )
@@ -4403,7 +4404,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 54a4d073-8aa5-4bc4-9430-c0aa1f4f7a58)
   )
-  (text "Possible Display Alternatives:\n1528-2327-ND - Small Oled 160x80 - SPI\n3444-AFL128160A0-1.77N12NTM-ANO-ND - TFT 128x160 - SPI\n1738-DFR0649-ND - IPS 240x240 - SPI"
+  (text "Possible Display Alternatives:\nDFRobot: DFR0649 240x240 1.54\"\nDFRobot: DFR0664 320x240 2.0\""
     (at 158.115 164.465 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c9f3bc49-4f7b-410f-bb1c-ffa69915e54f)
