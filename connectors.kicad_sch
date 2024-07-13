@@ -10891,7 +10891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternative1" "C2685075"
+		(property "Alternative1" "C2685075 (wrong positioning knobs!)"
 			(at 52.07 70.485 0)
 			(effects
 				(font
@@ -10900,7 +10900,16 @@
 				(hide yes)
 			)
 		)
-		(property "Alternative2" "C2685076"
+		(property "Alternative2" "C2685076 (wrong positioning knobs!)"
+			(at 52.07 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternative3" "C383614 (no positioning knobs, so no interference)"
 			(at 52.07 70.485 0)
 			(effects
 				(font
